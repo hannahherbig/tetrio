@@ -1,4 +1,6 @@
-#!/bin/bash -euxo pipefail
+#!/bin/bash
+
+set -euxo pipefail
 
 paths=(
 	api/general/stats
