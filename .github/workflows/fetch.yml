@@ -14,10 +14,9 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - name: fetch
-        run: |-
-          curl https://ch.tetr.io/api/general/stats | jq .data > stats.json
-      - name: commit and push
+      - name: Fetch latest data
+        run: ./fetch.sh
+      - name: Commit and push if it changed
         run: |-
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
