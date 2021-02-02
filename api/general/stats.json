@@ -1,13 +1,13 @@
 {
-  "usercount": 958978,
-  "usercount_delta": 0.039028197872963216,
-  "anoncount": 660430,
-  "rankedcount": 14621,
-  "replaycount": 1630337,
-  "gamesplayed": 49724638,
-  "gamesplayed_delta": 2.9661430383452045,
-  "gamesfinished": 35372581,
-  "gametime": 7042694891.0854025,
-  "inputs": 25015067894,
-  "piecesplaced": 5528080231
+  "usercount": 959108,
+  "usercount_delta": 0.0637216637726411,
+  "anoncount": 660530,
+  "rankedcount": 14626,
+  "replaycount": 1630490,
+  "gamesplayed": 49731265,
+  "gamesplayed_delta": 3.297596100234177,
+  "gamesfinished": 35377672,
+  "gametime": 7043725848.757854,
+  "inputs": 25018673040,
+  "piecesplaced": 5528897309
 }
